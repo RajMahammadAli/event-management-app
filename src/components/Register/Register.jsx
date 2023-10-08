@@ -1,9 +1,10 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../AuthProvider/AuthProvider";
 
 export default function () {
   const { createUser, user } = useContext(AuthContext);
+  const [error, setError] = useState("");
   const location = useLocation();
   console.log("regisgration", location);
   const nagivate = useNavigate();
@@ -11,6 +12,20 @@ export default function () {
     e.preventDefault();
     const email = e.target.email.value;
     const password = e.target.password.value;
+
+    if (!/[!@#$%^&*]/.test(password)) {
+      setError("Password must contain at least one special character.");
+    }
+
+    if (!/[A-Z]/.test(password)) {
+      setError("Password must contain at least one capital letter.");
+      return;
+    }
+
+    if (password.length < 6) {
+      setError("Password must have at least 6 characters.");
+      return;
+    }
 
     createUser(email, password)
       .then((result) => {
@@ -51,6 +66,9 @@ export default function () {
                     name="password"
                     required
                   />
+                </div>
+                <div>
+                  <p className="text-red-700">{error}</p>
                 </div>
                 <div className="form-control mt-6">
                   <button className="btn btn-primary">Register</button>

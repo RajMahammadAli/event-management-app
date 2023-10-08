@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { useContext } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../AuthProvider/AuthProvider";
@@ -7,6 +7,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 export default function () {
   const { googleSignIn, userSignIn } = useContext(AuthContext);
+  const [errorMessage, setErrorMessage] = useState("");
 
   const location = useLocation();
   console.log(location);
@@ -34,7 +35,10 @@ export default function () {
 
         navigate(location?.state ? location.state : "/");
       })
-      .catch((error) => console.log(error));
+      .catch((error) => {
+        setErrorMessage("Invalid email or password. Please try again.");
+        console.log(error.message);
+      });
   };
 
   const handleGoogleSignIn = () => {
@@ -54,7 +58,9 @@ export default function () {
         });
         navigate(location?.state ? location.state : "/");
       })
-      .catch((error) => console.log(error));
+      .catch((error) => {
+        console.log(error.message);
+      });
   };
 
   return (
@@ -87,6 +93,9 @@ export default function () {
                     name="password"
                     required
                   />
+                </div>
+                <div>
+                  <p className="text-red-700">{errorMessage}</p>
                 </div>
                 <div className="form-control mt-6">
                   <button className="btn btn-primary">Log IN</button>
