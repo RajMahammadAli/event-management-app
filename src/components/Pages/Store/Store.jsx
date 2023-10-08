@@ -23,7 +23,6 @@ export default function () {
               journey.
             </p>
           </div>
-          <div>this is products one {name}</div>
         </div>
         <div className="grid md:grid-cols-3 gap-8">
           {products.map((product) => (

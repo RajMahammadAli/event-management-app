@@ -27,6 +27,14 @@ export default function () {
       >
         <span className="mr-2 text-base font-bold">Store</span>
       </NavLink>
+      <NavLink
+        to="/ClassSchedule"
+        className={({ isActive, isPending }) =>
+          isPending ? "pending" : isActive ? "text-pink-500" : ""
+        }
+      >
+        <span className="mr-2 text-base font-bold">ClassSchedule</span>
+      </NavLink>
 
       <NavLink
         to="/Features"

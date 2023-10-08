@@ -3,7 +3,7 @@ export default function ({ product }) {
   return (
     <>
       <div>
-        <div className="card card-compact bg-base-100 shadow-xl">
+        <div>
           <figure>
             <img src={image} alt="store" />
           </figure>

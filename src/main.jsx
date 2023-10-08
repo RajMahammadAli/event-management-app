@@ -16,6 +16,7 @@ import PrivateRoute from "./components/PrivateRoute/PrivateRoute";
 import StoreSection from "./components/storeSection/StoreSection";
 import Error404 from "./404Error/Error404";
 import { ToastContainer } from "react-toastify";
+import ClassSchedule from "./components/ClassSchedule/ClassSchedule";
 
 const router = createBrowserRouter([
   {
@@ -25,7 +26,22 @@ const router = createBrowserRouter([
     children: [
       { path: "/", element: <Home></Home> },
       { path: "/features", element: <Features></Features> },
-      { path: "/store", element: <Store></Store> },
+      {
+        path: "/store",
+        element: (
+          <PrivateRoute>
+            <Store></Store>
+          </PrivateRoute>
+        ),
+      },
+      {
+        path: "/ClassSchedule",
+        element: (
+          <PrivateRoute>
+            <ClassSchedule></ClassSchedule>
+          </PrivateRoute>
+        ),
+      },
       { path: "/login", element: <LogIn></LogIn> },
       { path: "/register", element: <Register></Register> },
       {
