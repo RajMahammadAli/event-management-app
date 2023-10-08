@@ -1,0 +1,46 @@
+{
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "location": "New York, USA",
+      "image": "https://i.ibb.co/0q9tNj7/m-1.jpg",
+      "text": "I had an amazing experience at the Yoga Retreat. The instructors were knowledgeable, and the location was breathtaking. I left feeling rejuvenated and at peace."
+    },
+    {
+      "id": 2,
+      "name": "Alice Smith",
+      "location": "Los Angeles, USA",
+      "image": "https://i.ibb.co/DRkFRG6/w-3.jpg",
+      "text": "The Beachfront Fitness Getaway was a dream come true. The workouts by the ocean were invigorating, and the staff was friendly and supportive."
+    },
+    {
+      "id": 3,
+      "name": "Emily Johnson",
+      "location": "Toronto, Canada",
+      "image": "https://i.ibb.co/SKtCDKF/w-2.jpg",
+      "text": "The Meditation and Wellness Retreat helped me find inner peace. The daily meditation sessions were transformative, and I can't wait to return."
+    },
+    {
+      "id": 4,
+      "name": "David Lee",
+      "location": "London, UK",
+      "image": "https://i.ibb.co/XC9kF8q/m-2.jpg",
+      "text": "I loved the Forest Yoga and Hiking Adventure. It was a perfect blend of yoga and nature exploration. Highly recommended for nature lovers."
+    },
+    {
+      "id": 5,
+      "name": "Sophia Anderson",
+      "location": "Sydney, Australia",
+      "image": "https://i.ibb.co/ZgKDj3J/w-1.jpg",
+      "text": "The Island Paradise Yoga Retreat was a true escape from the everyday. The island's tranquility and daily yoga sessions were a gift."
+    },
+    {
+      "id": 6,
+      "name": "Michael Clark",
+      "location": "San Francisco, USA",
+      "image": "https://i.ibb.co/ZM07PdB/m-3.jpg",
+      "text": "The Mindful Running and Meditation Retreat was a unique experience. Running in nature while meditating was a game-changer for me."
+    }
+  ]
+}

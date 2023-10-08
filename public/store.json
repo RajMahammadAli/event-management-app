@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Premium Yoga Mat",
+      "description": "A high-quality, eco-friendly yoga mat with excellent grip and cushioning. Perfect for all types of yoga practices.",
+      "price": "$49.99",
+      "image": "https://i.ibb.co/r0YwFcT/pexels-mikhail-nilov-6740753.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Yoga Block Set",
+      "description": "A set of two durable yoga blocks made from natural cork material. Provides support and stability in yoga poses.",
+      "price": "$19.99",
+      "image": "https://i.ibb.co/Z8FPNcF/pexels-pavel-danilyuk-7055749.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Yoga Strap with D-Ring",
+      "description": "A versatile yoga strap with a D-ring buckle for adjusting length. Helps improve flexibility and deepen stretches.",
+      "price": "$12.99",
+      "image": "https://i.ibb.co/71YPZMf/pexels-gustavo-fring-3984371.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Yoga Wheel",
+      "description": "A yoga wheel made of high-quality TPE material. Great for stretching, balance, and enhancing yoga practice.",
+      "price": "$29.99",
+      "image": "https://i.ibb.co/S7c0GXm/gym-wheel.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Yoga Mat Bag",
+      "description": "A stylish and spacious yoga mat bag with multiple pockets for your mat, accessories, and essentials.",
+      "price": "$24.99",
+      "image": "https://i.ibb.co/RYMB1f4/pexels-ketut-subiyanto-5039661.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Yoga Pants",
+      "description": "Comfortable and breathable yoga pants for women. Made from moisture-wicking fabric for a great workout.",
+      "price": "$34.99",
+      "image": "https://i.ibb.co/DDJCmZP/pexels-andrea-piacquadio-866023.jpg"
+    }
+  ]
+}

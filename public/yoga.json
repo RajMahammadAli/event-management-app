@@ -1,0 +1,58 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "name": "Yoga Retreat in the Mountains",
+      "image": "https://i.ibb.co/TP9nmJr/pexels-kampus-production-6698513.jpg",
+      "price": "$500",
+      "shortDescription": "Escape to the serene mountains for a rejuvenating yoga retreat.",
+      "longDescription": "Nestled in the tranquil embrace of mountain peaks, our Yoga Retreat in the Mountains offers an escape from the hustle and bustle of everyday life. Immerse yourself in daily yoga sessions amidst breathtaking natural beauty. Recharge your spirit with guided meditation, explore scenic hiking trails, and savor wholesome meals. Our experienced instructors will help you deepen your practice, whether you're a beginner or experienced yogi. Experience inner peace and physical vitality as you harmonize with nature. Join us for a transformative journey of self-discovery and well-being.",
+      "buttonText": "Learn More"
+    },
+    {
+      "id": 2,
+      "name": "Beachfront Fitness Getaway",
+      "image": "https://i.ibb.co/Nr8Wj20/pexels-cliff-booth-4057839.jpg",
+      "price": "$600",
+      "shortDescription": "Revitalize your fitness routine on the tranquil shores of the beach.",
+      "longDescription": "Indulge in the ultimate Beachfront Fitness Getaway, where sun, sand, and wellness merge into a rejuvenating experience. Strengthen your body with invigorating beachfront workouts led by top fitness instructors. Unwind with yoga sessions against the backdrop of crashing waves. Relaxation meets adventure as you explore coastal trails and engage in water sports. Nourish your body with healthy meals prepared from fresh, local ingredients. Whether you're a fitness enthusiast or a beginner, this getaway offers the perfect blend of physical activity and serenity to revitalize your mind and body.",
+      "buttonText": "Learn More"
+    },
+    {
+      "id": 3,
+      "name": "Meditation and Wellness Retreat",
+      "image": "https://i.ibb.co/dQ1V59k/pexels-rdne-stock-project-8173554.jpg",
+      "price": "$450",
+      "shortDescription": "Find inner peace and wellness through meditation and holistic practices.",
+      "longDescription": "Embark on a transformative journey of self-discovery at our Meditation and Wellness Retreat. Dive deep into inner peace through daily meditation sessions guided by experienced teachers. Explore holistic wellness practices, including Ayurveda and mindfulness. Reconnect with nature during forest walks and soak in rejuvenating spa therapies. Savor delicious and nourishing meals prepared with love and care. This retreat is your sanctuary for relaxation and self-care. Whether you seek emotional healing or stress relief, our retreat is designed to help you find balance, serenity, and a renewed sense of well-being.",
+      "buttonText": "Learn More"
+    },
+    {
+      "id": 4,
+      "name": "Forest Yoga and Hiking Adventure",
+      "image": "https://i.ibb.co/KGrHCqK/pexels-rfstudio-3820393.jpg",
+      "price": "$550",
+      "shortDescription": "Explore the beauty of the forest while enhancing your yoga practice.",
+      "longDescription": "Experience the harmony of nature and yoga in our Forest Yoga and Hiking Adventure. Deepen your yoga practice amidst ancient trees and pristine forest landscapes. Embark on invigorating hikes to hidden waterfalls and scenic viewpoints. Enjoy wholesome meals by the campfire and connect with like-minded adventurers. Whether you're an experienced yogi or a novice, our expert instructors will guide you on a path to physical and spiritual growth. Reconnect with your inner self and the natural world, as you discover the tranquility of the forest and the joy of mindful movement.",
+      "buttonText": "Learn More"
+    },
+    {
+      "id": 5,
+      "name": "Island Paradise Yoga Retreat",
+      "image": "https://i.ibb.co/WPdK2bG/pexels-yan-krukau-8436715.jpg",
+      "price": "$700",
+      "shortDescription": "Experience tranquility on a secluded island with daily yoga sessions.",
+      "longDescription": "Escape to an Island Paradise Yoga Retreat, where the turquoise waters and pristine beaches become your haven for relaxation and rejuvenation. Start your day with sunrise yoga on the soft sands, followed by meditation sessions to soothe your soul. Explore the island's hidden gems, snorkel in crystal-clear waters, and savor gourmet meals with ocean views. Our experienced yoga instructors will guide you in aligning body, mind, and spirit. This retreat promises serenity, adventure, and a renewed sense of well-being, all set in a tropical paradise.",
+      "buttonText": "Learn More"
+    },
+    {
+      "id": 6,
+      "name": "Running and Meditation Retreat",
+      "image": "https://i.ibb.co/HtxtgTd/pexels-amin-sujan-1375883.jpg",
+      "price": "$400",
+      "shortDescription": "Combine running and meditation for a mindful and active retreat.",
+      "longDescription": "Join our Mindful Running and Meditation Retreat for a unique fusion of physical activity and inner tranquility. Experience the joy of mindful running through scenic trails and serene landscapes. Harness the power of meditation to calm your mind and enhance your running experience. Delve into holistic well-being with guided meditation, yoga sessions, and nutritious meals. Whether you're an experienced runner or new to the practice, this retreat offers a holistic approach to fitness and mindfulness, helping you achieve a deeper connection with yourself and nature.",
+      "buttonText": "Learn More"
+    }
+  ]
+}
